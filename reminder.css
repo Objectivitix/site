@@ -91,3 +91,17 @@ a:hover {
     font-size: 3.05rem;
     background-image: linear-gradient(-60deg, #000428, #007eb2);
 }
+
+#contact-icons a {
+    margin-right: 6rem;
+    display: inline-block;
+}
+
+#contact-icons a:hover {
+    background-color: transparent;
+    font-size: 1em;
+}
+
+#contact-icons a:last-of-type{
+    margin-right: 0;
+}
