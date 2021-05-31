@@ -29,6 +29,11 @@ footer {
     text-align: center;
 }
 
+a {
+    color: #4682b4;
+    text-decoration: 1px underline wavy #4682b4
+}
+
 ::selection {
     color: #000000;
     background-color: #ffffff;
@@ -38,11 +43,6 @@ footer {
     list-style-type: none;
     font-weight: 300;
     line-height: 1.5em;
-}
-
-a {
-    color: #4682b4;
-    text-decoration: 1px underline wavy #4682b4
 }
 
 a:visited {
