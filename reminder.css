@@ -48,11 +48,12 @@ a {
     width: 30rem;
     height: 6rem;
 
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 
     font-style: oblique 5deg;
-    font-family: "Abel", sans-serif;
+    font-family: "Abel", "Roboto", sans-serif;
     text-align: center;
     text-shadow: .3rem .3rem .2rem #00000025;
 
