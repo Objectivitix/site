@@ -93,13 +93,23 @@ a:hover {
 }
 
 #contact-icons a {
-    margin-right: 6rem;
+    margin-right: 7rem;
     display: inline-block;
+}
+
+#contact-icons img {
+    width: 5vw;
+    box-sizing: border-box;
 }
 
 #contact-icons a:hover {
     background-color: transparent;
     font-size: 1em;
+}
+
+#contact-icons img:hover {
+    border: 4px dashed #ff0000;
+    background-color: #ffffff;
 }
 
 #contact-icons a:last-of-type{
