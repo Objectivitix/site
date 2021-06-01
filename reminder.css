@@ -72,6 +72,10 @@ a:hover {
     font-size: 1.03em;
 }
 
+a:active {
+    background-color: #000000;
+}
+
 .projects li::before {
     content: "\261E";
     margin-right: 5px;
@@ -105,7 +109,6 @@ a:hover {
 
 #contact-icons a:hover {
     background-color: transparent;
-    font-size: 1em;
 }
 
 #contact-icons img:hover {
