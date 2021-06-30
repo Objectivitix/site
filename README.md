@@ -19,4 +19,4 @@ v1.1 | Added the "Contact Me" section.
 
 v1.2 | Completely redesigned the site using Flexbox layout, with some smooth transitions.
 
-v1.3 | Added light and dark themes using JavaScript.
+v1.3 | Added light and dark themes using JavaScript. Also made the site fully responsive.
