@@ -5,11 +5,11 @@
     --top-bottom-margin: calc(25vh + 30px);
     --main-top-bottom-margin: 12vh;
 
-    --primary-color: #ffffff;
-    --secondary-color: #000000;
-    --bg-gradient-color-one: #3c5502;
-    --bg-gradient-color-two: #114618;
-    --link-color: #9944ee;
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --bg-gradient-color-one: #d4fc79;
+    --bg-gradient-color-two: #96e6a1;
+    --link-color: #663399;
 }
 
 body {
@@ -81,8 +81,8 @@ main > section:hover:nth-of-type(2n) {
 }
 
 ::selection {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .projects {
