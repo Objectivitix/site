@@ -16,3 +16,7 @@ vbeta-4 | Added style to all sections including good-looking links, thematic bre
 v1.0 | The first version that actually looks like a website! Added a footer to fit with the header.
 
 v1.1 | Added the "Contact Me" section.
+
+v1.2 | Completely redesigned the site using Flexbox layout, with some smooth transitions.
+
+v1.3 | Added light and dark themes using JavaScript.
