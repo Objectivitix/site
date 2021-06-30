@@ -106,6 +106,12 @@ main > section:hover:nth-of-type(2n) {
     margin: auto;
 }
 
+.toggle-theme {
+    position: fixed;
+    left: 10px;
+    z-index: 100;
+}
+
 a:visited {
     color: var(--link-color);
     text-decoration-color: var(--link-color);
@@ -143,14 +149,11 @@ a:active {
 
 #all-hail {
     font-size: 3.05rem;
-    background-image: linear-gradient(-60deg, #000428, #007eb2);
+    background-image: linear-gradient(-60deg, #8a1ea8, #007eb2);
 }
 
 #toggle-dark-theme {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 100;
+    top: 40px;
 
     border-color: #ffffff;
     border-radius: 3px;
@@ -159,10 +162,7 @@ a:active {
 }
 
 #toggle-light-theme {
-    position: fixed;
-    top: 10px;
-    left: 100px;
-    z-index: 100;
+    top: 12px;
 
     border-color: #000000;
     border-radius: 3px;
