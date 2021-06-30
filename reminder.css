@@ -14,16 +14,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-main {
-    width: 75ch;
-    margin: auto;
-    margin-top: var(--main-top-bottom-margin);
-    margin-bottom: var(--main-top-bottom-margin);
-    text-align: center;
-    font-size: 1rem;
-    line-height: 1.7em;
-}
-
 header {
     margin-top: var(--top-bottom-margin);
 }
@@ -36,6 +26,51 @@ footer {
 a {
     color: #4682b4;
     text-decoration: 1px underline wavy #4682b4
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 7px;
+
+    margin: auto;
+    margin-top: var(--main-top-bottom-margin);
+    margin-bottom: var(--main-top-bottom-margin);
+    width: 85vw;
+
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.7em;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: calc(50% + 7.5vw);
+
+    transition-property: border-color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+main > section:nth-of-type(2n) {
+    align-self: flex-end;
+}
+
+main > section:hover {
+    transform: translateX(1vw);
+    border-color: #ffffff;
+    border-width: 2px;
+}
+
+main > section:hover:nth-of-type(2n) {
+    transform: translateX(-1vw);
 }
 
 ::selection {
@@ -74,7 +109,6 @@ a:hover {
     background-color: #ffffff;
     color: #ff0000;
     text-decoration: none;
-    font-size: 1.03em;
 }
 
 a:active {
@@ -89,6 +123,10 @@ a:active {
 #pre-declaration {
     font-size: 1.2rem;
     text-align: center;
+}
+
+#about {
+    font-size: 1.1rem;
 }
 
 #its-all {
@@ -111,7 +149,7 @@ a:active {
     width: clamp(35px, 5vw, 150px);
     box-sizing: border-box;
     transition-property: width, opacity;
-    transition-duration: 225ms;
+    transition-duration: 200ms;
     transition-timing-function: ease-in-out;
 }
 
@@ -134,7 +172,7 @@ a:active {
         --main-top-bottom-margin: 8vh;
     }
     main {
-        width: 50ch;
+        width: 80vw;
     }
     #its-all {
         font-size: 4.5rem;
@@ -143,15 +181,22 @@ a:active {
     #all-hail {
         font-size: 2.85rem;
     }
+    #contact-icons a {
+        margin-right: 6rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
     :root {
         --top-bottom-margin: calc(15vh + 12px);
         --main-top-bottom-margin: 5vh;
+        --main-box-width: 75vw;
     }
     main {
-        width: 40ch;
+        width: 75vw;
+    }
+    main > section {
+        width: 100%;
     }
     #its-all {
         font-size: 3.8rem;
@@ -159,5 +204,8 @@ a:active {
     }
     #all-hail {
         font-size: 2.3rem;
+    }
+    #contact-icons a {
+        margin-right: 5rem;
     }
 }
