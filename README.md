@@ -1,5 +1,7 @@
 It's all objects. This site will indefinitely be a work-in-progress.
 
+> Hello, challenger. The index is your key.
+
 ## DEVLOG
 vbeta-0 | The first version, with only the reminder on the fundamentality of objects.
 
