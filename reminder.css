@@ -92,7 +92,7 @@ main > section:hover:nth-of-type(2n) {
 }
 
 .declaration {
-    width: 30rem;
+    width: 50rem;
 
     -webkit-background-clip: text;
     background-clip: text;
@@ -142,7 +142,7 @@ a:active {
 }
 
 #its-all {
-    font-size: 3rem;
+    font-size: 5.5rem;
     background-image: linear-gradient(60deg, #ffa500, #ff0000);
     margin-top: .8vh;
 }
